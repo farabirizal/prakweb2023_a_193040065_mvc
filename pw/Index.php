@@ -9,7 +9,7 @@ $novel = query("SELECT * FROM novel");
 </head>
 <body>
 
-<h1>Daftar Novel</h1>
+<h1>Daftar Buku</h1>
 
 <a href="tambah.php">Tambah data Novel</a>
 <br><br>
