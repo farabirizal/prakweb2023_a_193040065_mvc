@@ -9,6 +9,7 @@ $novel = query("SELECT * FROM novel");
 	<title>Halaman Admin</title>
 </head>
 <body>
+	
 
 <h1>Daftar Buku</h1>
 
