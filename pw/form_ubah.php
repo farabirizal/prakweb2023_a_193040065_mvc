@@ -3,7 +3,7 @@
   <title>Aplikasi CRUD dengan PHP</title>
 </head>
 <body>
-  <h1>Ubah Data Siswa</h1>
+  <h1>Ubah Data Novel</h1>
   <?php
   // Load file koneksi.php
   include "koneksi.php";
