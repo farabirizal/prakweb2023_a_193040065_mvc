@@ -22,16 +22,12 @@ public $judul = "judul",
 
 
 
-$produk3 = new Produk("Naruto","Masashi Kishimoto","Shonen Jump","30000");
+$produk1 = new Produk("Naruto","Masashi Kishimoto","Shonen Jump","30000");
+$produk2 = new Produk("Uncharted","Neil Druckman","Sony Computer","250000");
+$produk3 = new Produk("Dragon Ball");
 
-
-$produk4 = new Produk("Uncharted","Masashi Kishimoto","Shonen Jump","30000");
-
-$produk4->judul = "Uncharted";
-$produk4->penulis = "Neil Druckman";
-$produk4->penerbit = "Sony Computer";
-$produk4->harga = "250000";
-
-echo "Komik : " . $produk3->getLabel();
+echo "Komik : " . $produk1->getLabel();
 echo "<br>";
-echo "Game : " . $produk4->getLabel();
+echo "Game : " . $produk2->getLabel();
+echo "<br>";
+var_dump($produk3);
