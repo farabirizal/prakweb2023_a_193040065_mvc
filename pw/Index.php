@@ -4,6 +4,7 @@ $novel = query("SELECT * FROM novel");
 ?>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <head>
 	<title>Halaman Admin</title>
 </head>
