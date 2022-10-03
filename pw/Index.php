@@ -33,7 +33,7 @@ $novel = query("SELECT * FROM novel");
 		<td><?= $i; ?></td>
 		<td>
 			<a href="form_ubah.php?id=<?= $row["id"]; ?>">ubah</a> |
-			<a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?');">hapus</a>
+			<a href="proses_hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?');">hapus</a>
 		</td>
 		<td><img src="Assets/<?= $row["gambar"]; ?>" width="50"></td>
 		<td><?= $row["judul"]; ?></td>
